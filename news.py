@@ -128,101 +128,116 @@ simpsons_places = ["городе Спрингфилд", "школе Элемен
     "компьютерном центре", "городской администрации", "больнице Спрингфилда", "кинотеатре", "церкви Святого Дунстана"]
 
 
+#Список дат
+choose_date = ["Сегодня", "Вчера", "В прошлый понедельник", "Во прошлый вторник", "В прошлую среду", "В прошый четверг", "В прошлую пятнцу", "В прошлую субботу", "В прошлое воскресенье"]
+
 def generate_random_news_marvel():
     character = random.choice(marvel_characters)
     event = random.choice(marvel_events)
     place = random.choice(marvel_places)
     villain = random.choice(marvel_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_starwars():
     character = random.choice(starwars_characters)
     event = random.choice(starwars_events)
     place = random.choice(starwars_places)
     villain = random.choice(starwars_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_hp():
     character = random.choice(hp_characters)
     event = random.choice(hp_events)
     place = random.choice(hp_places)
     villain = random.choice(hp_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_osd():
     character = random.choice(osd_characters)
     event = random.choice(osd_events)
     place = random.choice(osd_places)
     villain = random.choice(osd_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_game_of_thrones():
     character = random.choice(game_of_thrones_characters)
     event = random.choice(game_of_thrones_events)
     place = random.choice(game_of_thrones_places)
     villain = random.choice(game_of_thrones_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_supernatural():
     character = random.choice(supernatural_characters)
     event = random.choice(supernatural_events)
     place = random.choice(supernatural_places)
     villain = random.choice(supernatural_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_minion():
     character = random.choice(minion_characters)
     event = random.choice(minion_events)
     place = random.choice(minion_places)
     villain = random.choice(minion_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_toy_story():
     character = random.choice(toy_story_characters)
     event = random.choice(toy_story_events)
     place = random.choice(toy_story_places)
     villain = random.choice(toy_story_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_shrek():
     character = random.choice(shrek_characters)
     event = random.choice(shrek_events)
     place = random.choice(shrek_places)
     villain = random.choice(shrek_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_falls():
     character = random.choice(falls_characters)
     event = random.choice(falls_events)
     place = random.choice(falls_places)
     villain = random.choice(falls_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_herros():
     character = random.choice(herros_characters)
     event = random.choice(herros_events)
     place = random.choice(herros_places)
     villain = random.choice(herros_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 def generate_random_news_simpsons():
     character = random.choice(simpsons_characters)
     event = random.choice(simpsons_events)
     place = random.choice(simpsons_places)
     villain = random.choice(simpsons_characters)
+    date = random.choice(choose_date)
     # Генерация случайного события с участием героя и злодея
-    news = f"{character} {event} {villain} в {place}."
+    news = f"{date} {character} {event} {villain} в {place}."
     return news
 
 
