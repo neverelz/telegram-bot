@@ -9,7 +9,6 @@ bot = TeleBot(config.TOKEN)
 # Список для хранения ID сообщений, отправленных ботом и пользователем
 messages_to_delete = {}
 
-
 # Функция для удаления всех сообщений в данном чате
 def delete_all_messages(chat_id):
     if chat_id in messages_to_delete:
@@ -209,12 +208,12 @@ def start(message):
 
 
 
+self = "MAIN_MENU"
 
 # Обработчик любых сообщений
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     global self
-    self = "MAIN_MENU"
 
     if message.chat.id not in messages_to_delete:
         messages_to_delete[message.chat.id] = []
