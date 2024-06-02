@@ -152,4 +152,4 @@ cython_debug/
 #.idea/
 
 
-API_TOKEN = '6510413056:AAHYeLyUgUGpMAwN6d7iRqof3mKdvPILd5Q'
+config.py
