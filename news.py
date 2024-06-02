@@ -227,17 +227,3 @@ def generate_random_news_simpsons():
 
 
 
-
-# Генерация случайной новости
-random_news_marvel = generate_random_news_marvel()
-random_news_stawars = generate_random_news_starwars()
-random_news_hp = generate_random_news_hp()
-random_news_osd = generate_random_news_osd()
-random_news_game_of_thrones = generate_random_news_game_of_thrones()
-random_news_supernatural = generate_random_news_supernatural()
-random_news_minion = generate_random_news_minion()
-random_news_toy_story = generate_random_news_toy_story()
-random_news_shrek = generate_random_news_shrek()
-random_news_falls = generate_random_news_falls()
-random_news_herros = generate_random_news_herros()
-random_news_simpsons = generate_random_news_simpsons()
